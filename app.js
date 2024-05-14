@@ -48,13 +48,32 @@ class Motorcycle extends Vehicle{
     }
 }
 
-   const motor = new Vehicle("Toyota", "Camry", 2020);
-   console.log(motor.make);
-   console.log(motor.model);
-   console.log(motor.year);
-   console.log(motor.honk());
-   console.log(motor.toString());
-   console.log(motor.numwheels);
 
+
+// CODE CHECKER
+//    const motor = new Vehicle("Toyota", "Camry", 2020);
+//    console.log(motor.make);
+//    console.log(motor.model);
+//    console.log(motor.year);
+//    console.log(motor.honk());
+//    console.log(motor.toString());
+//    console.log(motor.numwheels);
+// =====================================
+// //Create some vehicles
+//    const car1 = new Car("Toyota", "Camry", 2023);
+//    const bike1 = new Motorcycle("TVS", "CBR600RR", 2021);
+   
+//    // Add vehicles to the garage
+//    console.log(garage.add(motor)); // Output: Vehicle successfully added to the garage.
+//    console.log(garage.add(Motorcycle)); // Output: Vehicle successfully added to the garage.
+   
+//    // Try adding something other than a vehicle
+//    console.log(garage.add("Not a vehicle")); // Output: Only vehicles are allowed in here.
+   
+//    // Try adding more vehicles than the garage capacity
+//    const car2 = new Car("BMW", "iseries", 2018);
+//    const car3 = new Car("Nissan", "Rogue", 2019);
+//    console.log(garage.add(motor)); // Output: Vehicle successfully added to the garage.
+//    console.log(garage.add(motor)); // Output: Sorry, we’re full.
 
 
